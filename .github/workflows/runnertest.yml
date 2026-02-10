@@ -21,4 +21,5 @@ jobs:
           echo "Runner OK"
           hostname
           whoami
+          ls -la
           uname -a
