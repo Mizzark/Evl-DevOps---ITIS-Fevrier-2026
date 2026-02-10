@@ -1,3 +1,4 @@
+---
 name: CD - Déploiement sur Github Pages
 on:
   push:
