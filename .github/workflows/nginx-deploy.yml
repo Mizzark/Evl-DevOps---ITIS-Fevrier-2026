@@ -1,0 +1,17 @@
+---
+name: Deploiement NGINX
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on:
+      - self-hosted
+      - linux
+      - x64
+    steps:
+      - name: Démarrage NGINX
+        run: sudo systemctl start
