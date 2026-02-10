@@ -14,4 +14,4 @@ jobs:
       - x64
     steps:
       - name: Démarrage NGINX
-        run: sudo systemctl start
+        run: sudo systemctl start nginx
